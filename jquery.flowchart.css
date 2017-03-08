@@ -136,6 +136,20 @@
     cursor: move;
 }
 
+.flowchart-operator .flowchart-operator-image {
+    width: 100%;
+    background: #F0F0F0;
+    height: auto;
+}
+
+.flowchart-operator .flowchart-operator-image img {
+    width: 100%;
+    padding: 3px;
+    border-top: 1px solid #DDDDDD;
+    background: #F0F0F0;
+    height: auto;
+}
+
 .flowchart-operator .flowchart-operator-inputs-outputs {
     display: table;
     width: 100%;
