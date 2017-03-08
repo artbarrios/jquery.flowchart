@@ -1,5 +1,5 @@
 $(function () {
-// the widget definition, where "custom" is the namespace,xx
+// the widget definition, where "custom" is the namespace,
 // "colorize" the widget name
     $.widget("flowchart.flowchart", {
         // default options
@@ -484,6 +484,9 @@ $(function () {
 
             var $operator_outputs = $('<div class="flowchart-operator-outputs"></div>');
             $operator_outputs.appendTo($operator_inputs_outputs);
+
+            var $operator_image = $('<div class="flowchart-operator-image"><img src="' + infos.image_src + '" /></div>');
+            $operator_image.appendTo($operator);
 
             var self = this;
 
