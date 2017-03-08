@@ -1,5 +1,5 @@
 $(function () {
-// the widget definition, where "custom" is the namespace,
+// the widget definition, where "custom" is the namespace,xx
 // "colorize" the widget name
     $.widget("flowchart.flowchart", {
         // default options
